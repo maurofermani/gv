@@ -1,0 +1,45 @@
+#top ul{
+    margin:0;
+    padding:0;
+    float: right;
+}
+
+#top li{
+    width:110px;
+    height:50px;
+    float:left;
+    color:#191919;
+    text-align:center;
+    overflow:hidden;
+    display:inline;
+}
+
+#top li a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+#top li p{
+    padding:5px;
+}
+
+.subtext{
+    padding-top:15px;
+}
+
+/*Menu Color Classes*/
+.green{
+    background: #6AA63B url('../images/menu/green-item-bg.jpg') top left no-repeat;
+}
+.yellow{
+    background: #FBC700 url('../images/menu/yellow-item-bg.jpg') top left no-repeat;
+}
+.red{
+    background: #D52100 url('../images/menu/red-item-bg.jpg') top left no-repeat;
+}
+.purple{
+    background: #5122B4 url('../images/menu/purple-item-bg.jpg') top left no-repeat;
+}
+.blue{
+    background: #0292C0 url('../images/menu/blue-item-bg.jpg') top left no-repeat;
+}

@@ -1,0 +1,130 @@
+* { padding: 0; margin: 0; }
+
+body {
+    font:.85em Verdana, Arial, Sans-Serif;
+    color:#272727;
+    background-image: url('../images/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#wrapper {
+    width:80%;
+    min-width: 972px;
+    background:#fff;
+    margin: 15px auto;
+    padding:15px;
+    opacity:0.9;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#content {
+    padding: 10px 0px;
+    overflow: auto;
+}
+
+#content p.subcat {
+    margin:30px;
+}
+
+#main {
+    width:70%;
+    float:left;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #eee;
+    min-height: 445px;
+}
+
+
+
+#side {
+    width:23%;
+    float:right;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #eee;
+}
+#side p {
+    text-align: center;
+}
+
+.single {
+    /*    width:40%;*/
+    float:left;
+    padding:0 15px;
+}
+
+#pie {
+    height: 50px;
+    width: 100%;
+    background: #FEF3E8;
+    margin: 10px auto;
+    background: url('../images/pie.png');
+    background-repeat: round round;
+}
+
+/*social media*/
+#socialmedia {
+    left: -5px;
+    position: absolute;
+    padding: 10px;
+    width:50px;
+    background: #ccccff;
+    border: 1px solid #000066;
+    border-radius: 5px;
+}
+
+#socialmedia.fixed {
+    position: fixed;
+    top: 10px;
+}
+
+#top {
+    float:right;
+    text-align:right;
+    width:70%;
+}
+
+/*Header*/
+#header {
+    height:215px;
+}
+
+#logo {
+    float:left;
+    color:gray;
+    line-height:25px;
+    margin-left: 30px;
+}
+
+#logo h1 {
+    font-size:2.4em;
+    letter-spacing:-1px;
+    margin: 0px 15px;
+}
+
+#topmenu {
+    height:50px;
+    clear:both;
+    margin:5px 0 -5px;
+    float: right;
+}
+#topmenu ul {
+    list-style:none;
+}
+#topmenu li {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    font-size: large;
+}
